@@ -18,13 +18,13 @@ float servicioPostal::calculoEnvio(){
         if(this->clase == 1){costoEnvio = tablaCostos[0][0]*this->distancia;}else
         if(this->clase == 2){costoEnvio = tablaCostos[0][1]*this->distancia;}else
         if(this->clase == 3){costoEnvio = tablaCostos[0][2]*this->distancia;}
-    };
+    }else
     if(this->peso >= 4 && this->peso <= 8){//Peso 4-8
 
         if(this->clase == 1){costoEnvio = tablaCostos[1][0]*this->distancia;}else
         if(this->clase == 2){costoEnvio = tablaCostos[1][1]*this->distancia;}else
         if(this->clase == 3){costoEnvio = tablaCostos[1][2]*this->distancia;}
-    };
+    }else
     if(this->peso >= 9){//Peso 9+
 
         if(this->clase == 1){costoEnvio = tablaCostos[2][0]*this->distancia;}else
