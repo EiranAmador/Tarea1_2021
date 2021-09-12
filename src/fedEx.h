@@ -3,7 +3,7 @@
 
 #include "envio.h"
 
-class fedEx : public Envio {
+class fedEx : public envio {
 
     int peso;
     int distancia;

@@ -3,7 +3,7 @@
 
 #include "envio.h"
 
-class servicioPostal : public Envio {
+class servicioPostal : public envio {
 
     int peso;
     int distancia;
